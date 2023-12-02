@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.carousel-item img {
+  margin: 0 auto; /* Căn giữa ảnh theo chiều ngang */
+  max-height: 360px; /* Điều chỉnh chiều cao tối đa của ảnh */
+  width: auto; /* Đảm bảo chiều rộng tự động điều chỉnh để duy trì tỷ lệ khung hình */
+  display: block; /* Đảm bảo hiển thị đúng kiểu block */
+}
